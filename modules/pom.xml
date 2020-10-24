@@ -6,7 +6,7 @@
     <groupId>com.opengamma</groupId>
     <artifactId>corporate-parent</artifactId>
     <version>2.7.5</version>
-    <relativePath />
+    <relativePath/>
   </parent>
   <groupId>com.opengamma.strata</groupId>
   <artifactId>strata-parent</artifactId>
@@ -697,10 +697,10 @@
                 <inherited>false</inherited>
                 <configuration>
                   <target>
-                    <mkdir dir="${project.basedir}/target/japicmp" />
+                    <mkdir dir="${project.basedir}/target/japicmp"/>
                     <concat destfile="${project.basedir}/target/japicmp/japicmp.diff" overwrite="true">
                       <fileset dir="${project.basedir}">
-                        <include name="*/target/japicmp/japicmp.diff" />
+                        <include name="*/target/japicmp/japicmp.diff"/>
                       </fileset>
                     </concat>
                   </target>
@@ -719,7 +719,7 @@
     <root.dir>${project.basedir}/..</root.dir>
     <!-- Versions -->
     <assertj.version>3.17.2</assertj.version>
-    <guava.version>26.0-jre</guava.version><!-- v27 has nasty dependencies, https://github.com/google/guava/issues/3320 -->
+    <guava.version>30.0-android</guava.version><!-- v27 has nasty dependencies, https://github.com/google/guava/issues/3320 -->
     <guava-docs.version>26.0-jre</guava-docs.version>
     <jcommander.version>1.78</jcommander.version>
     <joda-convert.version>2.2.1</joda-convert.version>
